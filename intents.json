@@ -1,0 +1,42 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello"],
+         "responses": ["Hello, I'm Raah. What's your name?", "Hi, I'm Raah! What's your name?" ],
+         "context": [""]
+        },
+       
+        {"tag": "good",
+                "patterns": ["I'm Good", "Great"],
+                "responses": ["That's great to hear! What makes you happy?", "That's Wonderful!  What makes you happy?", "Good to hear!  What makes you happy?"],
+                "context": [""]
+               },
+        {"tag": "bad",
+                "patterns": ["I'm Sad", "Depressed", "Bad", "Lonely"],
+                "responses": ["Sorry to hear! Why so?", "Hey! Dont be sad. Could you tell me why?", "Uh Oh, tell me why?"],
+                "context": [""]
+        },
+        {"tag": "neutral",
+                "patterns": ["I'm Okay", "Fine", "The Usual","Okayish", "Neutral"],
+                "responses": ["Oh, mind telling me about it?", "Okay, Why so?"],
+                "context": [""]
+                },
+        {"tag": "openended",
+                "patterns": ["busy", "work", "life","stress", "bored","Angry"],
+                "responses": ["Oh! Well, if you don't mind, may I ask a few questions?"],
+                "context": [""]
+                },
+        {"tag": "yes",
+                "patterns": ["Yes", "Okay", "Sure","Yeah","Yep"],
+                "responses": ["Great! Let's start"],
+                "context": [""]
+                },
+        {"tag": "no",
+                "patterns": ["No", "Not Really", "Nope"],
+                "responses": ["That's okay, take care!\nRemember: You Are Stronger Than Whatever You Are Fighting Right Now, I Believe In You."],
+                "context": [""]
+                }
+        
+        
+   ]
+}
+
